@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Application Launcher
+Name=Application Launcher (Fieldless)
 Name[af]=Programlanseerder
 Name[ar]=مطلق التّطبيقات
 Name[be]=Запуск праграмаў
@@ -30,7 +30,7 @@ Name[gu]=કાર્યક્રમ ચલાવનાર
 Name[he]=משגר יישומים
 Name[hi]=अनुप्रयोग चालक
 Name[hne]=अनुपरयोग चालू करइया
-Name[hr]=Pokretač aplikacija
+Name[hr]=Pokretač aplikacija 
 Name[hsb]=Startowar za aplikacije
 Name[hu]=Programindító
 Name[ia]=Lanceator de application
@@ -174,9 +174,9 @@ X-Plasma-RequiredExtensions=LaunchApp
 
 X-KDE-PluginInfo-Author=Martin Graesslin
 X-KDE-PluginInfo-Email=plasma-devel@kde.org
-X-KDE-PluginInfo-Name=org.kde.plasma.kickoff
-X-KDE-PluginInfo-Version=1.0
-X-KDE-PluginInfo-Website=http://userbase.kde.org/Plasma/Kickoff
+X-KDE-PluginInfo-Name=org.kde.plasma.kickoff_fieldless
+X-KDE-PluginInfo-Version=18.10
+X-KDE-PluginInfo-Website=https://github.com/flipwise/kickoff-fieldless
 X-KDE-PluginInfo-Category=Application Launchers
 X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-License=GPL-2.0+
