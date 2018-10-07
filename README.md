@@ -14,6 +14,15 @@ Comparison between Kickoff and Kickoff (Fieldless):
 
 INSTALLATION INFO
 
-1) 
-2)
-3) ?
+1) KDE Store
+
+- The KDE Store package can be installed by
+
+2) Direct copy
+
+a) per-user: copy to 
+b) globally: copy to 
+
+3) AUR (Arch User Repository)
+
+- install the package named
