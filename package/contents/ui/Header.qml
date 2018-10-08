@@ -136,7 +136,7 @@ Item {
                 right: parent.right
             }
             horizontalAlignment: Text.AlignLeft
-            verticalAlignment: Text.AlignBottom
+            verticalAlignment: Text.AlignVCenter
             text: kuser.os != "" ? i18n("%2@%3 (%1)", kuser.os, kuser.loginName, kuser.host) : i18n("%1@%2", kuser.loginName, kuser.host)
             elide: Text.ElideRight
 
@@ -150,7 +150,7 @@ Item {
                 left: parent.left
                 right: parent.right
             }
-            verticalAlignment: Text.AlignBottom
+            verticalAlignment: Text.AlignVCenter
             text: i18nc("Type is a verb here, not a noun", "Type to search...")
             Behavior on opacity { NumberAnimation { duration: searchWidget.animationDuration; easing.type: Easing.InOutQuad; } }
             Behavior on y { NumberAnimation { duration: searchWidget.animationDuration; easing.type: Easing.InOutQuad; } }
