@@ -1,4 +1,4 @@
-# Fieldless Kickoff
+# Fieldless Kickoff (Application Launcher)
 
 PROJECT DESCRIPTION
 
