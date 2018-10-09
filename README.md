@@ -2,7 +2,7 @@
 
 PROJECT DESCRIPTION
 
-This repository contains the version of KDE's Kickoff (Application Menu) widget without the patch which introduces a permanent search field.
+This repository contains the version of KDE's Kickoff (Application Launcher) widget without the patch which introduces a permanent search field.
 
 The patch is set to appear in Plasma 5.15 and it is thus so far only present in KDE Neon Unstable Developer Edition.
 
