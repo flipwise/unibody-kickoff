@@ -25,6 +25,3 @@ INSTALLATION INFO
 a) per-user: copy to 
 b) globally: copy to 
 
-3) AUR (Arch User Repository)
-
-- install the package named
