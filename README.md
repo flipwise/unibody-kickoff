@@ -13,7 +13,7 @@ The intention of the project is to keep providing backported fixes to Kickoff, a
 
 Comparison between Kickoff and Kickoff (Fieldless):
 
-![With Patch](kickoff-wpatch.jpeg) ![No Patach](kickoff-nopatch.jpeg)
+![With Patch](kickoff-wpatch.jpg) ![No Patach](kickoff-nopatch.jpg)
 
 INSTALLATION INFO
 
