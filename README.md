@@ -26,3 +26,5 @@ INSTALLATION INFO
 a) per-user: copy to 
 b) globally: copy to 
 
+KNOWN INHERITED BUGS
+- When you click on "Type to search..." you cannot use the Esc key to turn off the search field; you have to actually type something for the Esc key to work. 
