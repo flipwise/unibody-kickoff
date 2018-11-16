@@ -10,7 +10,7 @@ The goal of the project is to keep providing backported fixes to Kickoff, all th
 
 **Comparison between Kickoff and Kickoff (Fieldless):**
 
-![With Patch](kickoff-wpatch.jpg) ![No Patach](kickoff-nopatch.jpg)
+<img src="UnibodyKickoffPreview.png">
 
 **INSTALLATION INFO**
 
