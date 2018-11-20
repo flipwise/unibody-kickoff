@@ -62,6 +62,8 @@ PlasmaComponents.TabButton {
             elide: Text.ElideRight
             wrapMode: Text.WordWrap
             font.pointSize: theme.smallestFont.pointSize
+            //Workaround for KDE kerning bug 355935 and QT bug 49646.
+            renderType: Text.QtRendering
         }
     }
 } // button
