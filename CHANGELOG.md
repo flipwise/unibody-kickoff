@@ -1,4 +1,4 @@
-**20-11-2018 (Unreleased)**
+**22-11-2018 (Unreleased)**
 - imported latest Kickoff without the patch which adds a permanent search field 
 - renamed the widget in appropriate files (need help with translation)
 - fixed vertical aligment of the "Type to search..." and machine info text; it now matches the vertical position of the text in the search field
@@ -6,3 +6,4 @@
 - backport fix: https://github.com/KDE/plasma-desktop/commit/48b32259e73f374a456ed836ba44e3effe2baee5#diff-5ab15790503cdc8b5d9ba1fff5cebec2
 - backport fix: https://github.com/KDE/plasma-desktop/commit/9b25a95c2191da989220b4adf961a0b2f3ead84b#diff-5ab15790503cdc8b5d9ba1fff5cebec2
 - added a fix of my own which resolves bad font kerning with tab labels
+- backport fix: https://github.com/KDE/plasma-desktop/commit/b664aa9c055b15ee6b3fa6b9877ac702e94c5dc0#diff-5ab15790503cdc8b5d9ba1fff5cebec2
