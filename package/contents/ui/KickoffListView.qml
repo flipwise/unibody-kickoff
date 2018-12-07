@@ -54,19 +54,29 @@ FocusScope {
         listView.decrementCurrentIndex();
     }
 
+    Connections {
+        target: plasmoid
+
+        onExpandedChanged: {
+            if (!expanded) {
+                listView.positionViewAtBeginning();
+            }
+        }
+    }
+
     PlasmaExtras.ScrollArea {
         id: scrollArea
-
+        frameVisible: false
         anchors.fill: parent
 
         ListView {
             id: listView
-
+        
             focus: true
-
+            
             keyNavigationWraps: true
             boundsBehavior: Flickable.StopAtBounds
-
+            
             highlight: KickoffHighlight {}
             highlightMoveDuration : 0
             highlightResizeDuration: 0
@@ -91,7 +101,7 @@ FocusScope {
 
     MouseArea {
         anchors.left: parent.left
-        
+
         width: scrollArea.viewport.width
         height: parent.height
 
