@@ -66,7 +66,6 @@ FocusScope {
 
     PlasmaExtras.ScrollArea {
         id: scrollArea
-        frameVisible: false
         anchors.fill: parent
 
         ListView {
