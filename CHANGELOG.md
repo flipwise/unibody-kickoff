@@ -1,3 +1,6 @@
+**08-12-2018**
+- backport KDE fix: https://github.com/KDE/plasma-desktop/commit/74ff6586944f5959d540a4312c1baffeeed36e87#diff-2d9eb3d78282b02619010e9ecb2b3909
+
 **23-11-2018**
 - imported latest Kickoff without the patches which add a permanent search field and separator lines
 - renamed the widget in appropriate files
