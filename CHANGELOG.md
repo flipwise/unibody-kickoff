@@ -1,3 +1,8 @@
+**19.01**
+- use a better version style
+- backport KDE fix: https://github.com/KDE/plasma-desktop/commit/f29c04572c062ccac3836db87f3e85eb00ae461c#diff-5ab15790503cdc8b5d9ba1fff5cebec2
+- backport KDE fix: https://github.com/KDE/plasma-desktop/commit/be189b0ce2b728cf7e3721b381c24a418d2d1e77#diff-5ab15790503cdc8b5d9ba1fff5cebec2
+
 **08-12-2018**
 - backport KDE fix: https://github.com/KDE/plasma-desktop/commit/74ff6586944f5959d540a4312c1baffeeed36e87#diff-2d9eb3d78282b02619010e9ecb2b3909
 
