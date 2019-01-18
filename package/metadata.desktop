@@ -14,8 +14,8 @@ X-Plasma-RequiredExtensions=LaunchApp
 
 X-KDE-PluginInfo-Author=Various
 X-KDE-PluginInfo-Email=None
-X-KDE-PluginInfo-Name=org.kde.plasma.unibodykickoff
-X-KDE-PluginInfo-Version=23112018
+X-KDE-PluginInfo-Name=org.kde.plasma.kickoff
+X-KDE-PluginInfo-Version=19.01-1
 X-KDE-PluginInfo-Website=https://github.com/flipwise/unibody-kickoff
 X-KDE-PluginInfo-Category=Application Launchers
 X-KDE-PluginInfo-Depends=
