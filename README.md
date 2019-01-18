@@ -27,3 +27,5 @@ You can also just download the ZIP of this repo. The next step would be to unpac
 a) if you want per-user availability: /home/.local/share/plasma/plasmoids
 
 b) if you want it to be available for all users: /usr/share/plasma/plasmoids
+
+NOTE: simply restart plasmashell (plasmashell --replace) or log out for your Kickoff to be replaced.
