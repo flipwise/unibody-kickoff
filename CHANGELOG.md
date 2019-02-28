@@ -1,5 +1,7 @@
-**Unreleased**
+**19.02**
 - backport KDE fix: https://github.com/KDE/plasma-desktop/commit/cc33c78ff5f773b9a0549fdb98dbb3c2aa6cd79b#diff-5ab15790503cdc8b5d9ba1fff5cebec2
+- backport KDE fix: https://github.com/KDE/plasma-desktop/commit/7a33e1130612238ec6031a8c6ecc675a6133a172#diff-5ab15790503cdc8b5d9ba1fff5cebec2
+- own fix: port QQC1 to QQC2
 
 **19.01-1**
 - Unibody Kickoff is now fully translatable
