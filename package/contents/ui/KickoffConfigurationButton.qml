@@ -18,7 +18,7 @@
 
 import QtQuick 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
-import QtQuick.Controls 1.0 as QtControls
+import QtQuick.Controls 2.5 as QtControls
 import org.kde.kquickcontrolsaddons 2.0
 
 PlasmaCore.FrameSvgItem {
