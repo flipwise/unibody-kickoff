@@ -16,17 +16,17 @@
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  2.010-1301, USA.
  */
 
-import QtQuick 2.0
-import QtQuick.Layouts 1.0 as Layouts
-import QtQuick.Controls 2.5 as Controls
+import QtQuick 2.5
 import QtQml.Models 2.1
+
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.kirigami 2.5 as Kirigami
 
 
 GridView {
     id: configButtons
 
-    cellHeight: units.gridUnit * 5
+    cellHeight: units.gridUnit * 6 + units.smallSpacing
     cellWidth: units.gridUnit * 6
 
     width: cellWidth * 5
@@ -59,7 +59,7 @@ GridView {
         var disabledItems = [];
         for(var i = 0; i < menuItems.length; i++) {
             var confItemName = menuItems[i].substring(0, menuItems[i].indexOf(":"));
-            var confItemEnabled = menuItems[i].substring(menuItems[i].length-1) == "t";
+            var confItemEnabled = menuItems[i].substring(menuItems[i].length-1) === "t";
 
             var listItem = items[confItemName];
             listItem['name'] = confItemName;
@@ -89,7 +89,7 @@ GridView {
         for(var i = 0; i < visualModel.items.count; i++) {
             var itemName = visualModel.items.get(i).model['name'];
 
-            if(itemName != 'empty') {
+            if(itemName !== 'empty') {
                 var configItem = itemName +":" +(i<5?"t":"f");
                 menuItems.push(configItem);
             }
@@ -140,7 +140,7 @@ GridView {
             KickoffConfigurationButton {
                 id: button
 
-                icon: model.icon == "pm" ? (pmSource.data["PowerDevil"] && pmSource.data["PowerDevil"]["Is Lid Present"] ? "computer-laptop" : "computer") : model.icon
+                icon: model.icon === "pm" ? (pmSource.data["PowerDevil"] && pmSource.data["PowerDevil"]["Is Lid Present"] ? "computer-laptop" : "computer") : model.icon
                 text: model.text || ""
 
                 name: model.name
@@ -187,11 +187,11 @@ GridView {
                     var source = drag.source.visualIndex;
                     var target = delegateRoot.visualIndex;
                     sourceIndex = drag.source.visualIndex;
-                    if(!(previousCell[0] == source && previousCell[1] == target)) {
+                    if(!(previousCell[0] === source && previousCell[1] === target)) {
                         previousCell = [source, target];
                          if(source < 5 && target >= 5) {
                              visualModel.items.move(source, target);
-                             visualModel.items.move(target == 9 ? 8 : 9, 4);
+                             visualModel.items.move(target === 9 ? 8 : 9, 4);
                          } else if (source >= 5 && target < 5) {
                              visualModel.items.move(source, target);
                              visualModel.items.move(5, 9);
@@ -208,5 +208,17 @@ GridView {
                 }
             }
         }
+    }
+
+    Kirigami.Heading {
+        level: 2
+        text: i18n("Active Tabs")
+        anchors.bottom: configButtons.top
+    }
+
+    Kirigami.Heading {
+        level: 2
+        text: i18n("Inactive Tabs")
+        anchors.bottom: configButtons.verticalCenter
     }
 }
